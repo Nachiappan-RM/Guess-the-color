@@ -9,6 +9,7 @@ app.get("/",(req,res)=>{
 	res.render("col.ejs");
 });
 
-app.listen(4000,()=>{
-	console.log("Sever is starting");
-});
+// app.listen(4000,()=>{
+// 	console.log("Sever is starting");
+// });
+app.listen(process.env.PORT, process.env.IP);
