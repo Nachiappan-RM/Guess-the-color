@@ -10,6 +10,6 @@ app.get("/",(req,res)=>{
 });
 
 // app.listen(4000,()=>{
-// 	console.log("Sever is starting");
+// 	console.log("Server is starting");
 // });
 app.listen(process.env.PORT, process.env.IP);
